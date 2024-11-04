@@ -5,11 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Redes Sociais</title>
     <link rel="stylesheet" href="style.css">
-    <script src="https://cdn.plot.ly/plotly-2.27.0.min.js" charset="utf-8"></script>
+    <script src="https://cdn.plot.ly/plotly-latest.min.js"></script> <!-- Adicione esta linha -->
+    <script type="module" src="graficos/pizza.js"></script>
+    <script type="module" src="graficos/informacoesGlobais.js"></script>
+    <script type="module" src="graficos/quantidadedeUsuarios.js"></script>
 </head>
 <body>
     <header>
-        <h1>Relatório das redes sociais</h1>
+        <h1>Relatorio das redes sociais</h1>
         <nav>
             <a href="index.html">Mundo</a>
             <a href="#">Minha escola</a>
@@ -17,14 +20,11 @@
     </header>
     <main class="graficos-section">
         <section id="graficos-container" class="graficos-container">
-            <!-- crie os gráficos/texto aqui -->
+            <!-- Graficos/texto aqui -->
         </section>
     </main>
     <footer>
-        <p>Desenvolvido por edivaldo ramos</p>
+        <p>Edivaldo Ramos Batista</p>
     </footer>
-    <script type="module" src="graficos/common.js"></script>
-    <script type="module" src="graficos/informacoesGlobais.js"></script>
-    <script type="module" src="graficos/quantidadeUsuarios.js"></script>
 </body>
 </html>
